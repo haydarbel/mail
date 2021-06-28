@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="nl" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Geregistreerd</title>
+    <link rel="stylesheet" th:href="@{/css/mail.css}">
+</head>
+<body>
+<h1>Geregistreerd</h1>
+
+<div>Uw lidnummer is:
+    <th:block th:text="${id}"></th:block>
+    .
+</div>
+
+<div>We stuurden je een mail.</div>
+
+</body>
+</html>
