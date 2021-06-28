@@ -9,4 +9,6 @@ public interface LidService {
 
     Optional<Lid> findById(long id);
 
+    void stuurMailMetAantalLeden();
+
 }
